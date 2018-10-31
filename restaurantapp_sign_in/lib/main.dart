@@ -41,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
               Container(
-                padding: EdgeInsets.only(left: 20.0),
+                padding: EdgeInsets.only(left: 40.0),
                 child: Text("People's \nChoice",
                     style: TextStyle(
                         fontSize: 40.0,
