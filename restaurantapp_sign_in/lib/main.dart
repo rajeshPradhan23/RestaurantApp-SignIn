@@ -50,37 +50,37 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               SizedBox(height: 50.0),
               Container(
-                padding: EdgeInsets.only(left: 20.0, right: 20.0),
+                padding: EdgeInsets.only(left: 40.0, right: 40.0),
                 child: TextFormField(
                   keyboardType: TextInputType.emailAddress,
                   autofocus: false,
                   decoration: InputDecoration(
                     prefixIcon: Icon(Icons.email, color: Colors.black54),
                     hintText: 'Username or Email',
-                    contentPadding: EdgeInsets.fromLTRB(20.0, 20.0, 20.0, 20.0),
+                    contentPadding: EdgeInsets.all(15.0),
                     border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(32.0)),
                   ),
                 ),
               ),
-              SizedBox(height: 20.0),
+              SizedBox(height: 15.0),
               Container(
-                padding: EdgeInsets.only(left: 20.0, right: 20.0),
+                padding: EdgeInsets.only(left: 40.0, right: 40.0),
                 child: TextFormField(
                   autofocus: false,
                   obscureText: true,
                   decoration: InputDecoration(
                     prefixIcon: Icon(Icons.lock, color: Colors.black54),
                     hintText: 'Password',
-                    contentPadding: EdgeInsets.fromLTRB(20.0, 20.0, 20.0, 20.0),
+                    contentPadding: EdgeInsets.all(15.0),
                     border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(32.0)),
                   ),
                 ),
               ),
-              SizedBox(height: 20.0),
+              SizedBox(height: 15.0),
               Container(
-                padding: EdgeInsets.only(left: 20.0, right: 20.0),
+                padding: EdgeInsets.only(left: 40.0, right: 40.0),
                 child: FlatButton(
                   shape: new RoundedRectangleBorder(
                       borderRadius: new BorderRadius.circular(30.0)),
@@ -90,7 +90,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
                       new Padding(
-                        padding: const EdgeInsets.only(top: 20.0, bottom: 20.0),
+                        padding: const EdgeInsets.only(top: 15.0, bottom: 15.0),
                         child: Text(
                           'Sign in',
                           style: TextStyle(color: Colors.white, fontSize: 18.0),
@@ -101,11 +101,11 @@ class _MyHomePageState extends State<MyHomePage> {
                   onPressed: () => {},
                 ),
               ),
-              SizedBox(height: 20.0),
+              SizedBox(height: 15.0),
               new Container(
                 width: MediaQuery.of(context).size.width,
                 margin:
-                    const EdgeInsets.only(left: 30.0, right: 30.0, top: 20.0),
+                    const EdgeInsets.only(left: 50.0, right: 50.0, top: 5.0),
                 alignment: Alignment.center,
                 child: Row(
                   children: <Widget>[
@@ -135,7 +135,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               SizedBox(height: 20.0),
               Container(
-                padding: EdgeInsets.only(left: 20.0, right: 20.0),
+                padding: EdgeInsets.only(left: 40.0, right: 40.0),
                 child: FlatButton(
                   shape: new RoundedRectangleBorder(
                       borderRadius: new BorderRadius.circular(30.0)),
@@ -145,7 +145,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
                       new Padding(
-                        padding: const EdgeInsets.only(top: 20.0, bottom: 20.0),
+                        padding: const EdgeInsets.only(top: 15.0, bottom: 15.0),
                         child: Text(
                           'Sign in with Google',
                           style: TextStyle(color: Colors.white, fontSize: 18.0),
